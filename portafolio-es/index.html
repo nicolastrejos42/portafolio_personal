@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<!-- CDN DE SCROLL ANIMADO -->
+
+<head lang="es">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portafolio online de un desarrollador web. Desarrollador full stack.">
+    <meta name="keywords" content="Desarrollador web, diseñador, desarrollador full-stack">
+    <meta name="author" content="Nicolás Trejos">
+
+    <title>Nicolas Trejos | Desarrollador JR</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- <section class="barra-carga" id="barra-carga">
+            <div class="carga">
+                <div class="linea"></div>
+                <div class="linea"></div>
+                <div class="linea"></div>
+                <div class="linea"></div>
+                <div class="linea"></div>
+                <div class="linea"></div>
+                <div class="linea"></div>
+                <div class="linea"></div>
+            </div>
+        </section> -->
+    <nav class="menu">
+        <div class="foto">
+            <p><img src="img/foto.jpg" alt="Nicolás Trejos" class="foto"></p>
+        </div>
+        <div class="contenedor contenedor-menu">
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#conocimientos">Habilidades</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="contenedor contenedor-header">
+            <div class="nombre">
+                <span class="fade-in">Nicolás Trejos</span>
+            </div>
+            <h2 class="profesion">Desarrollador JR</h2>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="sobre-mi">
+            <div class="contenedor contenedor-sobre-mi">
+                <h2 class="titulo" id="sobre-mi">Sobre mí</h2>
+                <div class="texto">
+                    <p class="descripcion">
+                        $
+                        <span id="tagline">
+                            Bienvenido: <br><br>
+
+                            Soy un apasionado del desarrollo de software con experiencia sólida en PHP, JavaScript y
+                            bases
+                            de datos relacionales como MySQL. Mi enfoque se centra en el back-end,
+                            abordando desafíos desde el servidor hasta el cliente. <br><br>
+
+                            Me destaco en todo el ciclo de vida del software, desde la conceptualización hasta la
+                            implementación y mantenimiento continuo. Mi compromiso con el aprendizaje constante me
+                            mantiene actualizado con las últimas tendencias y mejores prácticas.<br><br>
+
+                            Estudiante de sexto semestre de Ingeniería de Software.<br><br>
+
+                            ¿Suena bien, no?
+
+                            <del></del></span><del id="pow-trigger"></del>
+                        </span>
+                    </p>
+                </div>
+                <!--  <div class="boton">
+                    <a class="boton" id="boton">Iniciar consola</a> 
+                </div> -->
+            </div>
+        </section>
+
+        <section class="proyectos">
+            <h2 class="titulo" id="proyectos">Algunos proyectos realizados</h2>
+            <div class="contenedor contenedor-proyectos">
+                <div class="proyecto">
+                    <div class="foto">
+                        <a href="https://nicolastrejos42.github.io/generador_facturas/generador/" target="_blank"><img
+                                src="img/proyectos/generador.png" alt=""></a>
+                    </div>
+                    <div class="info">
+                        <h4>Generador de facturas</h4>
+                        <h5>Tecnologías utilizadas:</h5>
+                        <p><span class="html">HTML5</span> - <span class="css">CSS3</span> - <span
+                                class="javascript">JavaScript</span></p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="foto">
+                        <a href="https://nicolastrejos42.github.io/portafolio_practica/Clase%2025%20(media%20queries)/perfil.html"
+                            target="_blank"><img src="img/proyectos/portafolio.png" alt=""></a>
+                    </div>
+                    <div class="info">
+                        <h4>Portafolio</h4>
+                        <h5>Tecnologías utilizadas:</h5>
+                        <p><span class="html">HTML5</span> - <span class="css">CSS3</span> - <span
+                                class="sass">SASS</span></p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="foto">
+                        <a href="https://www.canva.com/design/DAFG4WMM_tE/KrnWi4y4FLACnBmnj0_Q3A/watch?utm_content=DAFG4WMM_tE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                            target="_blank"><img src="img/proyectos/sustentacion.png" alt=""></a>
+                    </div>
+                    <div class="info">
+                        <h4>Sustentación</h4>
+                    </div>
+                </div>
+        </section>
+        <p >Nota: Muchos proyectos fueron hechos para empresas, no los puedo mostrar por
+            obvias razones ;) si te gustaría ver las plantillas, contáctate conmigo 😊 (final de la página) </p>
+
+        <div class="conocimientos">
+            <h2 class="titulo" id="conocimientos">Habilidades tecnológicas</h2>
+            <div class="contenedor">
+                <div class="contenedor-conocimientos">
+                    <div class="tarjeta">
+                        <input type="checkbox" name="">
+                        <div class="cambio red">+</div>
+                        <div class="img">
+                            <img src="img/habilidades/html.png" alt="">
+                        </div>
+                        <div class="detalles">
+                            <h3>HTML 5</h3>
+                            <p>
+                                Sus siglas vienen del inglés 'HyperText Markup Language'. Traducido al español
+                                quiere decir 'Lenguaje de Marcado e HiperTexto'. Este lenguaje de marcado nos permite
+                                crear la estructura
+                                (o cuerpo) básica de un sitio web mediante tags (etiquetas). El número cinco (5) hace
+                                referencia a la versión
+                                en la que se encuentra actualmente. Todos los titulos, párrafos, formularios, videos,
+                                entre muchísimas cosas más,
+                                las tenemos gracias a este maravilloso lenguaje.
+                            </p>
+                        </div>
+                        <!--. detalles -->
+                    </div>
+                    <!--. tarjeta -->
+
+                    <div class="tarjeta">
+                        <input type="checkbox" name="">
+                        <div class="cambio black">+</div>
+                        <div class="img">
+                            <img src="img/habilidades/css.png" alt="">
+                        </div>
+                        <div class="detalles">
+                            <h3>CSS</h3>
+                            <p>
+                                CSS es un lenguaje de estilo. Sus siglas también tienen un significado 'Cascading
+                                StyleSheet',
+                                su traducción es 'Hojas de estilo de cascada'. Seguro ya sabrás qué quiere decir el
+                                número tres (3),
+                                ¿verdad? ¡Exacto! Su versión actual.
+
+                                Este lenguaje de estilos nos permite... pues, darle estilos al cuerpo de nuestro sitio
+                                web.
+                                Es el maquillaje de HTML. Todo el diseño de un sitio va directamente relacionado con
+                                este lenguaje.
+                            </p>
+                        </div>
+                        <!--. detalles -->
+                    </div>
+                    <!--. tarjeta -->
+
+                    <div class="tarjeta">
+                        <input type="checkbox" name="">
+                        <div class="cambio red">+</div>
+                        <div class="img">
+                            <img src="img/habilidades/js.png" alt="">
+                        </div>
+                        <div class="detalles">
+                            <h3>JavaScript</h3>
+                            <p>
+                                ¡Bendito JavaScript! Es un lenguaje de programación que nos permite añadir, eliminar,
+                                aplicar animaciones o
+                                efectos a los componentes de nuestro sitio. Es la herramienta perfecta para realizar
+                                sitios web dinámicos
+                                y muy atractivos de la mano de CSS y HTML. Con el paso del tiempo ha evolucionado de
+                                manera exponencial y
+                                ahora mismo es absolutamente necesario conocerlo si quieres ser desarrollador web.
+                            </p>
+                        </div>
+                        <!--. detalles -->
+                    </div>
+                    <!--. tarjeta -->
+
+                    <div class="tarjeta">
+                        <input type="checkbox" name="">
+                        <div class="cambio black">+</div>
+                        <div class="img">
+                            <img src="img/habilidades/mysql.png" alt="">
+                        </div>
+                        <div class="detalles">
+                            <h3>MySQL</h3>
+                            <p>
+                                ¡Imagina a Oracle como el maestro de ceremonias de la fiesta de datos a nivel mundial!
+                                Este rockstar de las bases de datos sabe cómo manejar la multitud de información como un
+                                virtuoso del álgebra relacional. Es como el guardián de un tesoro de datos, encargado de
+                                almacenar los secretos y hazañas de servicios web en una elegante y poderosa sinfonía de
+                                bits y bytes. ¡Oracle, el DJ de la base de datos, haciendo que el mundo del
+                                almacenamiento de datos sea más emocionante que nunca!
+                            </p>
+                        </div>
+                        <!--. detalles -->
+                    </div>
+                    <!--. tarjeta -->
+
+                    <div class="tarjeta">
+                        <input type="checkbox" name="">
+                        <div class="cambio red">+</div>
+                        <div class="img">
+                            <img src="img/habilidades/php.png" alt="">
+                        </div>
+                        <div class="detalles">
+                            <h3>Php</h3>
+                            <p>
+                                ¡PHP, el arquitecto detrás de la magia web! Este lenguaje de programación es como el
+                                chef creativo que mezcla los ingredientes de la lógica y la dinámica para servir
+                                platillos deliciosos de páginas web interactivas. ¡Imagina a PHP como el Spider-Man de
+                                la web, tejiendo su red de código para atrapar y procesar datos con la velocidad de un
+                                superhéroe digital!
+                            </p>
+                        </div>
+                        <!--. detalles -->
+                    </div>
+                    <!--. tarjeta -->
+
+                    <div class="tarjeta">
+                        <input type="checkbox" name="">
+                        <div class="cambio black">+</div>
+                        <div class="img">
+                            <img src="img/habilidades/wordpress.png" alt="">
+                        </div>
+                        <div class="detalles">
+                            <h3>WordPress</h3>
+                            <p>
+                                ¡Bienvenido al mundo mágico de WordPress, la varita mágica de los sitios web! Imagina a
+                                WordPress como el hada madrina digital que hace que la administración de tu sitio web
+                                sea tan fácil como abracadabra. Sin necesidad de ser un mago de la programación,
+                                cualquiera puede sumergirse en este universo de posibilidades.
+                            </p>
+                        </div>
+                        <!--. detalles -->
+                    </div>
+                    <!--. tarjeta -->
+                </div>
+                <!--. conocimientos -->
+            </div>
+            <!--. contenedor -->
+        </div>
+        <!--. contenedor-conocimientos -->
+
+        <section class="certificados">
+            <h2 class="titulo" id="certificados">Certificados obtenidos de varias tecnologías</h2>
+            <div class="contenedor contenedor-certificados">
+                <a href="img/certificados/ingenieria.jpg" data-lightbox="certificado"
+                    data-title="Certificado fundamentos de ingeniería"><img src="img/certificados/ingenieria.jpg"
+                        alt=""></a>
+
+                <a href="img/certificados/rutalogica.jpg" data-lightbox="certificado"
+                    data-title="Certificado ruta de pensamiento lógico"><img src="img/certificados/rutalogica.jpg"
+                        alt=""></a>
+
+                <a href="img/certificados/algoritmos.jpg" data-lightbox="certificado"
+                    data-title="Certificado algoritmos y diagramas de flujo"><img src="img/certificados/algoritmos.jpg"
+                        alt=""></a>
+
+                <a href="img/certificados/estructuras.jpg" data-lightbox="certificado"
+                    data-title="Certificado de funciones y estructuras de control"><img
+                        src="img/certificados/estructuras.jpg" alt=""></a>
+
+                <a href="img/certificados/lenguajes.jpg" data-lightbox="certificado"
+                    data-title="Certificado lenguajes de programación"><img src="img/certificados/lenguajes.jpg"
+                        alt=""></a>
+
+                <a href="img/certificados/backend.jpg" data-lightbox="certificado"
+                    data-title="Certificado introducción al desarrollo backend"><img src="img/certificados/backend.jpg"
+                        alt=""></a>
+
+                <a href="img/certificados/bd.jpg" data-lightbox="certificado"
+                    data-title="Certificado fundamentos de bases de datos"><img src="img/certificados/bd.jpg"
+                        alt=""></a>
+
+                <a href="img/certificados/chatgpt.jpg" data-lightbox="certificado"
+                    data-title="Certificado creación de páginas con chatgpt"><img src="img/certificados/chatgpt.jpg"
+                        alt=""></a>
+
+                <a href="img/certificados/computacion.jpg" data-lightbox="certificado"
+                    data-title="Certificado de computación básica"><img src="img/certificados/computacion.jpg"
+                        alt=""></a>
+
+                <a href="img/certificados/devtools.jpg" data-lightbox="certificado"
+                    data-title="Certificado debugging con chrome devtools"><img src="img/certificados/devtools.jpg"
+                        alt=""></a>
+
+                <a href="img/certificados/frontend.jpg" data-lightbox="certificado"
+                    data-title="Certificado de frontend developer"><img src="img/certificados/frontend.jpg" alt=""></a>
+
+                <a href="img/certificados/ia.jpg" data-lightbox="certificado"
+                    data-title="Certificado herramientas de IA para developers"><img src="img/certificados/ia.jpg"
+                        alt=""></a>
+
+                <a href="img/certificados/js.jpg" data-lightbox="certificado"
+                    data-title="Certificado curso básico de javascript"><img src="img/certificados/js.jpg" alt=""></a>
+            </div><br><br>
+            <h2 class="titulo" id="certificados">Certificados obtenidos de PHP</h2>
+            <div class="contenedor contenedor-certificados">
+                <a href="img/certificados/fundamentosphp.jpg" data-lightbox="certificado"
+                    data-title="Certificado fundamentos de php"><img src="img/certificados/fundamentosphp.jpg"
+                        alt=""></a>
+
+                <a href="img/certificados/funciones.jpg" data-lightbox="certificado"
+                    data-title="Certificado arreglos, funciones y estructuras de control"><img
+                        src="img/certificados/funciones.jpg" alt=""></a>
+
+                <a href="img/certificados/composer.jpg" data-lightbox="certificado"
+                    data-title="Certificado introducción a php con composer"><img src="img/certificados/composer.jpg"
+                        alt=""></a>
+
+                <a href="img/certificados/manejodedatosphp.jpg" data-lightbox="certificado"
+                    data-title="Certificado manejo de datos"><img src="img/certificados/manejodedatosphp.jpg"
+                        alt=""></a>
+
+                <a href="img/certificados/phppractico.jpg" data-lightbox="certificado"
+                    data-title="Certificado de php práctico"><img src="img/certificados/phppractico.jpg" alt=""></a>
+
+                <a href="img/certificados/phpyhtml.jpg" data-lightbox="certificado"
+                    data-title="Certificado de integración de php con html"><img src="img/certificados/phpyhtml.jpg"
+                        alt=""></a>
+
+                <a href="img/certificados/poo.jpg" data-lightbox="certificado" data-title="Certificado de POO"><img
+                        src="img/certificados/poo.jpg" alt=""></a>
+
+                <a href="img/certificados/entornos.jpg" data-lightbox="certificado"
+                    data-title="Certificado entornos virtuales y profundización"><img
+                        src="img/certificados/entornos.jpg" alt=""></a>
+            </div><br><br>
+            <h2 class="titulo" id="certificados">Certificados obtenidos de Wordpress</h2>
+            <div class="contenedor contenedor-certificados">
+                <a href="img/certificados/creacionpaginas.jpg" data-lightbox="certificado"
+                    data-title="Certificado creación de páginas"><img src="img/certificados/creacionpaginas.jpg"
+                        alt=""></a>
+
+                <a href="img/certificados/blog.jpg" data-lightbox="certificado"
+                    data-title="Certificado de creación de blogs"><img src="img/certificados/blog.jpg" alt=""></a>
+
+                <a href="img/certificados/deployment.jpg" data-lightbox="certificado"
+                    data-title="Certificado entorno de desarrollo y deployment"><img
+                        src="img/certificados/deployment.jpg" alt=""></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="redes-sociales" id="contacto">
+                <a href="https://www.linkedin.com/in/nicol%C3%A1s-trejos-873a1525b/" target="_blank"
+                    class="social linkedin" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/elzurdo_x/" target="_blank" class="social instagram"
+                    title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/nicolastrejos42" target="_blank" class="social github" title="GitHub"><i
+                        class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <p class="autor">Nicolás Trejos - <span id="anoActual"></span></p>
+        </p>
+        <span><i class="boton-arriba fa fa-chevron-up" id="boton-arriba" aria-hidden="true"></i></span>
+
+        <script>
+            // Obtén el año actual
+            var fecha = new Date();
+            var anoActual = fecha.getFullYear();
+            // Inserta el año en el elemento con el id "anoActual"
+            document.getElementById("anoActual").textContent = anoActual;
+        </script>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/t.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+</body>
+
+</html>
